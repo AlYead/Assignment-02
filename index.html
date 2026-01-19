@@ -3,9 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font style  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<!-- link with css -->
+  <link rel="stylesheet" href="./Styles/web.css">
   <title>Assignment-02</title>
 </head>
-<body>
+<body class="inter-font">
+  <header class="dark-purple">
+<!-- /navigation part -->
+    <nav class="nav-container flex dark-purple">
+
+      <div class="nav-logo font-large-1">Tech<span class="gradient-t">Wave</span></div>
+
+      <div class="nav-contents flex">
+        <li class="nav-list"><a class="nav-option" href="">Home</a></li>
+        <li class="nav-list"><a class="nav-option" href="">Episodes</a></li>
+        <li class="nav-list"><a class="nav-option"href="">Host</a></li>
+      </div>
+      <div class="nav-button btn-1 gradient-b">Subscribe <i class="fa-solid fa-arrow-right"></i></div>
+    </nav>
+<!-- hero section  -->
+
+<div class="hero-banner">
+ <div class="hero-container flex">
+     <div class="hero-circle">
+      <!-- <div class="hero-mic"> -->
+        <img src="./assets/microphone.png" alt="">
+     </div>
+     <div class="hero-contents">
+      <h1 class="hero-title font-large-1">TechWave</h1>
+      <p class="hero-paragraph">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+      <div class="hero-buttons flex">
+        <button class="btn-1 gradient-b"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+        <button class="btn-2 "><i class="fa-regular fa-envelope"></i> Subscribe</button>
+      </div>
+     </div>
+ </div>
+</div>
+  </header>
+
+<!-- main part 1 -->
+<main>
+  <div class="about-container dark-purple">
+    <div class="about-description">
+      <h1 class="about-title font-large-1">About the Podcast</h1>
+      <p class="about-paragraph font-small-2">
+        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+        We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+        and share stories of personal growth from industry leaders.
+        <br><br>
+        Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+      </p>
+      </div>
   
+    <div class="about-ratings-container">
+      <div class="listeners">
+          <div class="a-title">150K+</div>
+          <div class="a-paragraph font-small-1">Monthly Listeners</div>
+      </div>
+      <div class="about-episodes">
+        <div class="a-title">200+</div>
+        <div class="a-paragraph font-small-1">Episodes Published</div>
+      </div>
+      <div class="about-average">
+        <div class="a-title">4.9<i class="fa-solid fa-star star"></i></div>
+        <div class="a-paragraph font-small-1">Average Rating</div>
+      </div>
+      <div class="about-industry">
+        <div class="a-title">50+</div>
+        <div class="a-paragraph font-small-1">Industry Experts </div>
+      </div>
+
+    </div>
+</div>
+
+    
+</main>
+
+
+
+<!-- footer section-->
+ <footer>
+ <div class="footer-container">
+  <div class="footer-contents ">
+    <h5 class="footer-heading ">Tech<span class="gradient-t">Wave</span></h5>
+    <div class="footer-img">
+      <div class="fi1 fi"><img src="./assets/spotify.png" alt="">  Spotify</div>
+      <div class="fi2 fi"><img src="./assets/apple-podcast.png" alt="">Apple Podcast</div>
+      <div class="fi3 fi"><img src="./assets/youtube-podcast.png" alt="">Youtube</div>
+      <div class="fi4 fi"><img src="./assets/twitter.png" alt="">Twitter</div>
+    </div>
+    <small>© 2026 TechWave Podcast. All rights reserved.</small>
+  </div>
+ </div>
+ </footer>
 </body>
 </html>
