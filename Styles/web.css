@@ -11,6 +11,10 @@
 
 /* Shared styles */
 
+.hide{visibility: hidden;}
+.none{display: none;}
+
+
     /* text-styles */
 
     .flex{display: flex;}
@@ -121,6 +125,8 @@
         font-weight: 500;
         line-height: 120%;
        }
+
+       .nav-3dot{display: none;}
 
 
        /* hero section */
@@ -287,3 +293,52 @@
           justify-content: center;
           align-items: center;
           gap: 4px;}
+
+
+
+
+
+
+
+
+
+/* Responsive style  */
+
+     /* small-device  */
+ @media screen and (max-width:576px){
+
+  /* navigation bar responsive */
+  .nav-contents, .nav-button {
+    display: none;
+  }
+  .nav-container{
+        justify-content: space-between;
+        padding: 20px;
+  }
+  .nav-3dot{display: inline;
+  }
+
+ }
+
+
+     /* medium-device  */
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+ /* navigation bar responsive */
+.nav-container{
+  justify-content: space-between;
+        padding: 40px;
+ }
+
+ .nav-contents{
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .nav-option{
+  font-size: 1.5rem;
+  font-weight: bold;
+ }
+
+}
