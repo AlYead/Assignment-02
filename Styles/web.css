@@ -128,6 +128,16 @@
 
        .nav-3dot{display: none;}
 
+       .nav-logo{animation: rainbow-text 7s infinite linear;}
+    @keyframes rainbow-text {
+  0% { color: white; }
+  20% { color: orange; }
+  40% { color: yellow; }
+  60% { color: rgb(230, 119, 46); }
+  80% { color: red; }
+  100% { color: white }
+}
+
 
        /* hero section */
 
@@ -179,7 +189,16 @@
 
         top: 4%;
         right: 5%;
+        animation: tilt-shaking 0.5s infinite linear;
       }
+
+      @keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
 
 
         .hero-contents{
@@ -492,19 +511,11 @@
     aspect-ratio: 1/1;
   }
 
-  
-
-
-
-
-
-
-
 
         /* footer section */
 
         .footer-container{
-          background-image: url(/assets/footer-bg.png);
+          background-image: url(../assets/footer-bg.png);
           background-position: center;
           background-size: cover;
           
