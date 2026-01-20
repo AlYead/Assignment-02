@@ -734,6 +734,9 @@
   .featured-title{
     margin-bottom: 40px;
     margin-top: 40px;
+    text-wrap: nowrap;
+    font-size: 2.7rem;
+    
    }
 
  /* main part 4 */
