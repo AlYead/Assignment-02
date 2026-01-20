@@ -133,7 +133,7 @@
   0% { color: white; }
   20% { color: orange; }
   40% { color: yellow; }
-  60% { color: rgb(230, 119, 46); }
+  60% { color: zrgb(230, 46, 46); }
   80% { color: red; }
   100% { color: white }
 }
@@ -636,6 +636,9 @@
         max-width: 400px;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 0 auto;
         
       }
 
@@ -716,15 +719,16 @@
  /* main part three */
 
  .featured-container{
-  max-width: 440px;
+  max-width: 575px;
   width: 100%;
-  justify-content: center;
+  
+  
  }
  .featured-cards{
   flex-direction: column;
-  /* justify-items: center; */
-  padding-left: 27px;
-  padding-right: 27px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center; 
  }
 
   .featured-title{
@@ -773,6 +777,10 @@
           grid-template-columns: repeat(2, 1fr);
           justify-content: space-between;
         }
+
+      .fi2{
+       text-wrap: nowrap;
+      }
 
 
  }
